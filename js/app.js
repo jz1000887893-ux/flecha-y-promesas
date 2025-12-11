@@ -137,8 +137,8 @@ const agregarUsuario = (usuario) => {
     <strong>${usuario.nombre}</strong><br>
     ${usuario.email}
    `;
-   
-   contenedorUsuarios.appendChild(card);
+
+contenedorUsuarios.appendChild(card);
 };
 
 //Ejercicio Aparte
